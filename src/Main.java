@@ -28,7 +28,7 @@ public class Main {
             case 5 -> System.out.println(Test.arrMangTinhXoa());
             case 6 -> System.out.println(Test.arrrChen());
             case 7 -> System.out.println(Arrays.toString(Test.saoChepMang(arr)));
-//            case 10-> System.out.println(Test.copyList());
+            case 10-> System.out.println(Test.mangDaoNguoc());
 //            case 11-> System.out.println(Test.ts());
 //            case 12-> System.out.println(Test.SearchNumber());
 //            case 13-> System.out.println(Test.RemoveArr());

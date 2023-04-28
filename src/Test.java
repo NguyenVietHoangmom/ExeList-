@@ -104,6 +104,17 @@ public class Test {
         return arrDaoNguoc;
     }
 
+    public static char[] mangDaoNguoc(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("moi ban nhap chuoi");
+        String mangCu= scanner.nextLine();
+        char[] chuoiCu=mangCu.toCharArray();
+        char[] chuoiMoi=new char[chuoiCu.length];
+        for (int i = 0; i < chuoiCu.length ; i++) {
+            chuoiMoi[i]=chuoiCu[chuoiCu.length-1-i];
+        }
+        return chuoiMoi;
+    }
 
     //Viết chương trình Java để xóa một phần tử khỏi một danh sách số nguyên,trong mảng gồm mảng tĩnh , arraylist/linkedlist
     public static List arrListXoa() {
